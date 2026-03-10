@@ -17,13 +17,13 @@ const philosophies: PhilosophyItem[] = [
   },
   {
     icon: Shuffle,
-    title: "好的 AI 产品是'专才组合'",
-    content: "在 Rosebud 中，我没有用一个昂贵模型解决所有问题。DeepSeek 负责共情对话，BGE 负责语义检索——'混合路由'思维是 AI 产品降本增效的核心。",
+    title: "好的 AI 产品是“专才组合”",
+    content: "在产品实践中，我没有用一个昂贵模型解决所有问题。DeepSeek 负责共情对话，BGE 负责语义检索——“混合路由”思维是 AI 产品降本增效的核心。",
   },
   {
     icon: Lightbulb,
-    title: "用户不需要 AI，用户需要'被懂'",
-    content: "Rosebud 的北极星指标不是 DAU，而是 WAA——每周主动查看洞察的用户数。因为只有当用户从数据中获得 Aha Moment，才代表产品真正创造了价值。",
+    title: "用户不需要 AI，用户需要“被懂”",
+    content: "产品的北极星指标不是 DAU，而是 WAA——每周主动查看洞察的用户数。因为只有当用户从数据中获得 Aha Moment，才代表产品真正创造了价值。",
   },
 ];
 

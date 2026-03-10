@@ -44,7 +44,7 @@ export default function Contact() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4">
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           <p className="text-xl text-secondary font-medium">
             期待与你交流 AI 产品的一切
