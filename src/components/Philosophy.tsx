@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Target, Shuffle, Lightbulb } from "lucide-react";
 
 interface PhilosophyItem {
@@ -27,7 +27,7 @@ const philosophies: PhilosophyItem[] = [
   },
 ];
 
-const cardContainerVariants = {
+const cardContainerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -37,7 +37,7 @@ const cardContainerVariants = {
   },
 };
 
-const cardVariants = {
+const cardVariants: Variants = {
   hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
 };
